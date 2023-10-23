@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = https://github.com/ginn0/ginn0.github.io.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[remote "upstream"]
+	url = https://ginn0:Lcb233npc-@github.com/ginn0/ginn0.github.io.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[lfs]
+	repositoryformatversion = 0
+[branch "dev-theme-uniform-color"]
+	remote = upstream
+	merge = refs/heads/dev-theme-uniform-color
